@@ -3,7 +3,7 @@
 ## 🐍 HTML & CSS Snake UI Animation
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/your-username/your-repo-name/main/assets/html-css-snake.gif" 
+  <img src="https://raw.githubusercontent.com/nishigandha1234/3-UI-Web-Technolgies/main/assets/html-css-snake.gif" 
        alt="HTML CSS Snake Animation" width="420"/>
 </p>
 
