@@ -1,0 +1,38 @@
+#Name{
+    color: magenta;
+    font-size: 30px;
+    font-style: oblique;
+    background-color: black ;
+}
+#N2{
+    color: blue;
+    font-size: 30px;
+    font-style: oblique;
+    background-color: black ;
+}
+.N3
+{
+    color: blue;
+    font-size: 30px;
+    font-style: oblique;
+    background-color: white ;
+
+}
+.N4
+{
+    color: purple;
+    font-size: 30px;
+    font-style: oblique;
+    font-variant: inherit;
+    background-color: lightblue ;
+
+}
+.N5
+{
+    color: black;
+    font-size: 30px;
+    font-style: oblique;
+    font-variant: inherit;
+    background-color: rgb(142, 193, 210) ;
+
+}

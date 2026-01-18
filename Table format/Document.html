@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<!-- saved from url=(0030)http://127.0.0.1:5500/Ex3.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        td{
+            padding: 5px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <table border="1" style="border-collapse: collapse;">
+        <tbody><tr>
+            <td rowspan="3"><b>Day</b></td>
+            <td colspan="4"><b>Seminar</b></td>
+        </tr>
+
+        <tr>
+            <td colspan="2"><b>Schedule</b></td>
+            <td colspan="2" rowspan="2"><b>Topic</b></td>
+        </tr>
+
+        <tr>
+            <td><b>Begin</b></td>
+            <td><b>End</b></td>
+        </tr>
+
+        <tr>
+            <td rowspan="2"><b>Monday</b></td>
+            <td rowspan="2" style="background-color: rgb(235, 235, 172);">8.00 a.m.</td>
+            <td rowspan="2" style="background-color: rgb(196, 148, 232);">5.00 p.m.</td>
+            <td>Introduction to XML</td>
+        </tr>
+
+        <tr>
+            <td>Validity : DTD and Relax NG</td>
+        </tr>
+
+        <tr>
+            <td rowspan="4"><b>Tuesday</b></td>
+            <td style="background-color: rgb(238, 208, 153);">8.00 a.m.</td>
+            <td style="background-color: rgb(238, 208, 153);">11.00 a.m.</td>
+            <td rowspan="1">XPath</td>
+        </tr>
+            <tr><td style="background-color: rgb(220, 198, 157);">11.00 a.m.</td>
+            <td style="background-color: rgb(144, 211, 132);">2.00 p.m.</td>
+            <td rowspan="3">XSL Transformations</td>
+        </tr><tr>
+
+        </tr><tr>
+            <td style="background-color: rgb(144, 211, 132);">2.00 p.m.</td>
+            <td style="background-color: rgb(196, 148, 232);">5.00 p.m.</td>
+        </tr>
+
+        <tr>
+            <td><b>Wednesday</b></td>
+            <td style="background-color: rgb(238, 208, 153);">8.00 a.m.</td>
+            <td style="background-color: rgb(144, 211, 132);">12.00 p.m.</td>
+            <td>XSL Formatting Objects</td>
+        </tr>
+
+        
+    </tbody></table>
+    
+<!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+
+</body></html>
