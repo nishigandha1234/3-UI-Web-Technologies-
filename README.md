@@ -1,10 +1,14 @@
 # 🎨 Attractive UI Designs using HTML & CSS
 
-![Snake animation](https://github.com/Platane/snk/raw/output/github-contribution-grid-snake.svg)
+## 🐍 HTML & CSS Snake UI Animation
 
-Welcome to this repository! 🚀  
-This project showcases **modern, clean, and attractive UI designs** created using **pure HTML and CSS**.  
-The main goal of this repository is to practice and demonstrate **front-end UI designing skills** with a focus on layout, colors, typography, and responsiveness.
+<p align="center">
+  <img src="https://raw.githubusercontent.com/your-username/your-repo-name/main/assets/html-css-snake.gif" 
+       alt="HTML CSS Snake Animation" width="420"/>
+</p>
+
+✨ This snake-style animation is designed using **pure HTML & CSS**.  
+It represents smooth UI flow, animation chaining, and modern frontend visual effects without JavaScript.
 
 ---
 
@@ -61,33 +65,5 @@ You can run the project locally to see the full UI experience.
    ```bash
    git clone https://github.com/your-username/ui-design-html-css.git
 
-
-### ✅ Step 2: Paste This Code
-
-```yml
-name: Generate Snake Animation
-
-on:
-  schedule:
-    - cron: "0 0 * * *"
-  workflow_dispatch:
-
-jobs:
-  build:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v3
-
-      - name: Generate snake animation
-        uses: Platane/snk@v3
-        with:
-          github_user_name: your-username
-          outputs: |
-            dist/github-contribution-grid-snake.svg
-
-      - name: Push snake animation
-        uses: EndBug/add-and-commit@v9
-        with:
-          add: "dist/github-contribution-grid-snake.svg"
-          message: "Generate snake animation"
+ation"
 
