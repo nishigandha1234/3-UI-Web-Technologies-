@@ -1,8 +1,12 @@
 # 🎨 Attractive UI Designs using HTML & CSS
 
-  <p align="center">
-  <img src="https://raw.githubusercontent.com/nishigandha1234/3-UI-Web-Technologies-/main/assets/html-css-snake.gif" width="420"/>
-</p>
+![Snake animation](https://github.com/Platane/snk/raw/output/github-contribution-grid-snake.svg)
+
+Welcome to this repository! 🚀  
+This project showcases **modern, clean, and attractive UI designs** created using **pure HTML and CSS**.  
+The main goal of this repository is to practice and demonstrate **front-end UI designing skills** with a focus on layout, colors, typography, and responsiveness.
+
+---
 
 ✨ This snake-style animation is designed using **pure HTML & CSS**.  
 It represents smooth UI flow, animation chaining, and modern frontend visual effects without JavaScript.
