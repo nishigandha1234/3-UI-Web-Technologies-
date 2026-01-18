@@ -60,3 +60,34 @@ You can run the project locally to see the full UI experience.
 1. Clone the repository
    ```bash
    git clone https://github.com/your-username/ui-design-html-css.git
+
+
+### ✅ Step 2: Paste This Code
+
+```yml
+name: Generate Snake Animation
+
+on:
+  schedule:
+    - cron: "0 0 * * *"
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Generate snake animation
+        uses: Platane/snk@v3
+        with:
+          github_user_name: your-username
+          outputs: |
+            dist/github-contribution-grid-snake.svg
+
+      - name: Push snake animation
+        uses: EndBug/add-and-commit@v9
+        with:
+          add: "dist/github-contribution-grid-snake.svg"
+          message: "Generate snake animation"
+
