@@ -1,10 +1,7 @@
 # 🎨 Attractive UI Designs using HTML & CSS
 
-## 🐍 HTML & CSS Snake UI Animation
-
-<p align="center">
-  <img src="https://raw.githubusercontent.com/nishigandha1234/3-UI-Web-Technolgies/main/assets/html-css-snake.gif" 
-       alt="HTML CSS Snake Animation" width="420"/>
+  <p align="center">
+  <img src="https://raw.githubusercontent.com/nishigandha1234/3-UI-Web-Technologies-/main/assets/html-css-snake.gif" width="420"/>
 </p>
 
 ✨ This snake-style animation is designed using **pure HTML & CSS**.  
