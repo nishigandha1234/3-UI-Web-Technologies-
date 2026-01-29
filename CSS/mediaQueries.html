@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* *{
+            padding: 0px;
+            margin: 0px;
+            box-sizing: border-box;
+        } */
+         p{
+            font-size: 50px;
+        }
+        nav{
+            display: flex;
+            justify-content: space-around;
+            background: rgb(169, 169, 185);
+            height: 10vh;
+            width: 100%;
+            align-items: center;
+        }
+        @media( max-width : 800px) 
+        {
+            .enq{
+                display: none;
+            }
+            nav{
+                background: red;
+
+            }  
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <nav>
+            <p>HOME</p>
+            <p class="enq">ENQUIRY</p>
+            <p>ABOUT</p>
+            <p>CONTACT</p>
+            <p>HELP</p>
+            <p>LOGIN</p>
+        </nav>
+    </main>
+</body>
+</html>

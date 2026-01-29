@@ -1,0 +1,23 @@
+/* body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+} */
+p{
+    font-size: 4em; 
+    font-weight: bold;
+    /* font-style: italic; */
+    text-align: center;
+    /* text-transform: uppercase;
+    color: rgb(1, 1, 1);
+    text-shadow: 10px 10px 10px gray; */ 
+    /* text-indent: 60px; */
+    text-decoration-line : underline;
+    text-decoration-style: dashed;
+    text-decoration-thickness: 5px;
+    text-decoration-color: rgb(227, 166, 26);
+    /* text-decoration : underline dotted 5px red; */
+    text-wrap: nowrap;
+}

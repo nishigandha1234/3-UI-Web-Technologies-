@@ -1,0 +1,98 @@
+        *
+        {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+        /* nav{
+            height: 7vh;
+            background: rgb(5, 50, 112);
+            display: flex;
+            align-items: center;
+            font-size: 110%;
+            color: white;
+        }
+        .logo
+        {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 7vh;
+            width: 13%;
+        }
+        div:not(.logo)
+        {
+            display: flex;
+            align-items: center;
+            width: 85%;
+            justify-content: space-around;
+        }
+        main{
+            width: 1000px;
+            height: 500px;
+            background: rgb(62, 60, 72);
+            display: flex;
+            flex-direction: column;
+            overflow: auto;
+        } */
+        main{
+            width: 1000px;
+            height: 500px;
+            background: rgb(99, 70, 214);
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            align-items: center;
+            overflow: auto;
+        }
+        div{
+            background: rgb(71,229,229) ;
+            min-width: 23%;
+            min-height: 40%;
+            border: 2px solid;
+            margin: 5px;
+        }
+        body{
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            justify-content: space-around;
+        }
+        /* main{
+            width: 35vw;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+        div{
+            background: 9b9a9a;
+            height: 10vw;
+            width: 10vw;
+        }
+        div:hover{
+            background: rgb(128, 125, 125);
+        }
+        section{
+            height: 80%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        article{
+            width: 50px;
+            height: 50px;
+            display: flex;
+            background: rgb(182, 177, 177);
+            align-items: center;
+            justify-content: center;
+            border-radius: 50%;
+        }
+        p{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 20%;
+        } */
+        
+    

@@ -1,0 +1,32 @@
+body{
+    justify-content: center;
+    align-items: center; 
+    margin: 0;
+    padding: 0;
+    display: flex; 
+    position: relative;  
+}
+/* Background img, posi, size */
+/* div{
+    /* width: 40vw; */
+    /* height: 80vh; */
+    /* border: 5px solid;
+    font-size: 50px;
+    color: aliceblue;
+    background-image: url(./Assignments/download\ \(1\).jfif);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center; */
+/* } */
+
+div{
+    width: 40vh;
+    height: 40vh;
+    border-radius: 50%;
+    /* background-color: orange; */
+    /* background-image: repeating-radial-gradient(black 15%, white 20%); */
+    /* background-image: conic-gradient(red, yellow, green, blue, red); */
+    /* background-image: radial-gradient( red, rgb(232, 221, 28));  */
+    /* background-image: linear-gradient(to right, red, rgb(232, 221, 28)); */
+    
+}

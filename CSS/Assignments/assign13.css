@@ -1,0 +1,4 @@
+li::marker{
+    content: "⬅";
+    color: rgb(21, 27, 202);
+}

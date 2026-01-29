@@ -1,0 +1,52 @@
+*
+{
+    padding: 0;
+    margin: 0 ;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    height: 100vh;
+}
+/* main{
+    width: 50%;
+    height: 50%;
+    background: blue;
+}
+/* by using % we can change the element wrt responsive */
+/* div 
+{
+    width: 50%;
+    height: 50%;
+    background: skyblue;
+} */ 
+
+/* vh anf vw */
+/* main{
+    width: 500px;
+    height: 300px;
+    background: rgb(109, 109, 179);
+}
+div 
+{
+    width: 20vw;
+    height: 30vh;
+    background: skyblue;
+}  */
+
+/* em and rem */
+div{
+    font-size: 32px;
+}
+p{
+    font-size: 1em;
+}
+main{
+    font-size: 2rem;
+}
+/*''
+
+p{
+    font-size: 2rem;
+} */
+

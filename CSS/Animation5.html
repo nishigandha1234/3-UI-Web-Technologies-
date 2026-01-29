@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+         *{
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+        body{
+            height: 100vh;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 100px;
+        }
+        .box1{
+            width: 300px;
+            height: 150px;
+            background: rgb(255, 204, 0);
+            border-radius: 150px 150px 0px 0px ;
+            animation : box1 0.5s infinite alternate;
+        }
+        @keyframes box1 {
+            to{
+                transform: rotate(-30deg);
+            }
+        }
+        .box2{
+            width: 300px;
+            height: 150px;
+            background: rgb(255, 204, 0);
+            border-radius: 0px 0px 150px 150px ;
+            animation : box2 0.5s infinite alternate;
+            
+        }
+        @keyframes box2 {
+            to{
+                transform: rotate(30deg);
+            }
+        }
+        span{
+            font-size: 60px;
+            position: relative;
+            left: 170px;
+            top: 50px;
+        }
+        section{
+            display: flex;
+            justify-content: space-between;
+        }
+        section div{
+            font-size: 50px;
+            z-index: -1;
+
+        }
+        .tea{
+            animation: tea 3s;
+        }
+        @keyframes tea{
+            to{
+                transform: translate(-73);
+            }
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <div class="box1"><span>👁</span></div>
+        <div class="box2"></div>
+        <section>
+            <div class="tea">☕</div>
+            <div class="pizza">🍕</div>
+            <div class="burger">🍔</div>
+            <div class="cake">🎂</div>
+        </section>
+    </main>
+</body>
+</html>

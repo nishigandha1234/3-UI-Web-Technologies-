@@ -1,0 +1,74 @@
+/* adjacent and general selector */
+/* div+div
+{
+    background: rgb(193, 121, 121);
+}
+h1+p{
+    background: violet;
+}
+h1~section{
+    background-color: aqua;
+}
+div+div~section+p{
+    background-color: beige;
+}
+p+div{
+    background-color: cadetblue;
+} */
+
+/* child and descendent selector */
+/* div>div>section+p{
+    background-color: aquamarine;
+}
+div h1{
+    background-color: blanchedalmond;
+}
+div section{
+    background-color: chartreuse;
+}
+div+p{
+    background-color: chocolate;
+}
+div>p{
+    background-color: cornflowerblue;
+} */
+
+ /* Pseudo element selctor  */
+ /* p::first-letter{
+    font-style: italic;
+    font-size: 30px;
+ }
+ p::first-line{
+    background-color: bisque;
+ }
+ p::selection{
+    background : chartreuse;
+    color: rgb(220, 22, 22);
+ } */
+ /* p::before{
+    content: "The Best News of the Day";
+    background: rgb(36, 201, 193);
+    font-size: 20px;
+ }
+ p::after{
+    content: "This is the News of the Day";
+    background: burlywood;
+    font-size: 20px;
+ } */
+
+ /* Marker element */
+ li::marker{
+    content: "🍎";
+ }
+ #c::marker{
+    content: "🍉";
+ }
+ #b::marker{
+    content: "🥝";
+ }
+ #e::marker{
+    content: "🥭";
+ }
+ #f::marker{
+    content: "🍓";
+ }

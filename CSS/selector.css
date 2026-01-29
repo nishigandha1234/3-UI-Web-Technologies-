@@ -1,0 +1,77 @@
+/* input:focus{
+    background: orange;
+    color: red;
+    outline: none;
+    border: none;
+} */
+/* input:hover{
+    background: rgb(130, 123, 117);
+    color: rgb(169, 194, 172);
+    outline: none;
+    border: none;
+}
+button:hover{
+    background: rgb(218, 232, 232);
+    color: rgb(17, 177, 235);
+}
+
+p{
+    width: 100px;
+    background: lightgray;
+    color: black;
+    padding: 10px;
+    font-size: 10px;
+    display: none;
+}
+button:hover+p{
+    display: block;
+}
+/* or */
+/* div :hover>p{
+    display: block;
+}  */
+/* 
+div:first-child{
+    background-color: pink;
+    color: red;
+}
+div :last-child{
+    background-color: black;
+    color: rgb(0, 251, 255);
+}
+div:nth-child(3)
+{
+    background: rgb(98, 98, 186);
+}
+section:nth-child(4){
+    background: cyan;
+} */
+
+/* nth child table */
+/* td{
+    padding: 10px;
+}
+tr :nth-child(even){
+    background: blue;
+}
+tr :nth-child(odd){
+    background: rgb(121, 179, 206);
+} */
+
+/* attribute selector */
+[title = "this 1 para"]
+{
+    background: rgb(0, 255, 47) ;
+}
+[title ^= "this-"]
+{
+    background: rgb(107, 104, 193) ;
+}
+[title $= "para"]
+{
+    background: rgb(194, 56, 164) ;
+}
+[title ~= "this 1 para"]
+{
+    background: rgb(149, 255, 0) ;
+}
