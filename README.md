@@ -1,4 +1,4 @@
-# 🎨 Attractive UI Designs using HTML & CSS
+# 🎨 Attractive UI Designs using HTML & CSS.
 
 ![Snake animation](https://github.com/Platane/snk/raw/output/github-contribution-grid-snake.svg)
 
