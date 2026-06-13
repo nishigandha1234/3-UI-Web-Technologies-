@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form using Table</title>
+    <link rel="stylesheet" href="Registration.css">
+</head>
+<body>
+    <form>
+        <table border="1" cellpadding="10" cellspacing="0">
+            <tr>
+                <th colspan="2">Registration Form</th>
+            </tr>
+
+            <tr>
+                <td>Name : </td>
+                <td><input type="text" name="name"</td>
+            </tr>
+
+            <tr>
+                <td>Email : </td>
+                <td><input type="email" name="email"</td>
+            </tr>
+
+            <tr>
+                <td>Password : </td>
+                <td><input type="password" name="password"</td>
+            </tr>
+
+            <tr>
+                <td>Gender : </td>
+                <td>
+                    <input type="radio" name="Gender">Male
+                    <input type="radio" name="Gender">Female
+                </td>
+            </tr>
+
+            <tr>
+                <td>Hobbies :</td>
+                <td>
+                    <input type="checkbox"> Reading
+                    <input type="checkbox"> Singing
+                    <input type="checkbox"> Travelling
+                </td>
+            </tr>
+
+            <tr>
+                <td>City </td>
+                <td>
+                    <select>
+                        <option>Select</option>
+                        <option>Pune</option>
+                        <option>Mumbai</option>
+                        <option>Nashik</option>
+                        <option>Hyderabad</option>
+                        <option>Banglore</option>
+                    </select>
+                </td>
+            </tr>
+
+            <tr>
+                <td>Address : </td>
+                <td><textarea rows="5" cols="26"></textarea></td>
+            </tr>
+
+            <tr>
+                <td colspan="2" align="center">
+                    <input type="submit" name="submit">
+                    <input type="reset" name="reset">
+                </td>
+            </tr>
+        </table>
+    </form>
+    
+</body>
+</html>
